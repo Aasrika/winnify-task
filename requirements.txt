@@ -1,0 +1,10 @@
+groq
+faiss-cpu
+sentence-transformers
+pydantic
+PyPDF2
+transformers
+torch
+python-dotenv
+requests
+beautifulsoup4
