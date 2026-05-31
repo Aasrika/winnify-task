@@ -1,0 +1,317 @@
+{
+  "notes": {
+    "artifact": {
+      "artifact_type": "class_notes",
+      "topic": "Python Fundamentals",
+      "subtopic": "Functions and Variables",
+      "content": "Functions and Variables in Python Functions are reusable blocks of code that take arguments and return values Variables are used to store and manipulate data in a program Key concepts: Creating and calling functions Declaring and using variables Data types: int, float, str, etc. Operators: +, -, *, /, % Casting: converting data types, e.g., int(x) Code examples: x = int(input(\"What's x?\")) y = int(input(\"What's y?\")) print(x + y) # correct output x = input(\"What's x?\") y = input(\"What's y?\") z = x + y print(z) # incorrect output due to string concatenation x = input(\"What's x?\") y = input(\"What's y?\") z = int(x) + int(y) print(z) # correct output after casting Example of running functions on functions: x = int(input(\"What's x?\")) y = int(input(\"What's y?\")) print(x + y) Main points: Use functions to organize and reuse code Declare variables to store and manipulate data Understand data types and operators in Python Use casting to convert data types as needed"
+    },
+    "source_chunk_ids": [
+      "24bd5435-3662-4d8c-bb33-35f68e65b43d",
+      "8dff947f-dc06-47c8-80c2-8dc7891bd409",
+      "07f341c6-640b-465a-9cae-4c343db1dc78",
+      "f672381b-1f16-482d-83a9-1c6c398cc466"
+    ],
+    "validation": {
+      "schema_valid": true,
+      "schema_message": "OK",
+      "nli_coverage_ratio": 1.0,
+      "nli_grounding_ok": true,
+      "claim_details": [
+        {
+          "claim": "Functions and Variables in Python Functions are reusable blocks of code that take arguments and return values Variables ",
+          "best_entailment_score": 3.9621,
+          "grounded": true
+        },
+        {
+          "claim": "Operators: +, -, *, /, % Casting: converting data types, e.g., int(x) Code examples: x = int(input(\"What's x?\")) y = int",
+          "best_entailment_score": 1.3811,
+          "grounded": true
+        }
+      ],
+      "passed": true
+    },
+    "status": "READY FOR REVIEW"
+  },
+  "slides": {
+    "artifact": {
+      "artifact_type": "slides",
+      "topic": "Python Fundamentals",
+      "subtopic": "Functions and Variables",
+      "slides": [
+        {
+          "title": "Variables and Data Types",
+          "bullets": [
+            "In Python, an integer is referred to as an int.",
+            "Integers can be used for mathematical operations such as +, -, *, /, and %.",
+            "The % operator is the modulo operator, which returns the remainder of a division operation.",
+            "Variables can be declared using the assignment operator (=).",
+            "For example: x = 1, y = 2, z = x + y."
+          ]
+        },
+        {
+          "title": "Input Function and Casting",
+          "bullets": [
+            "The input function can be used to get user input from the keyboard.",
+            "User input is treated as a string by default.",
+            "To convert a string to an integer, you can use the int() function.",
+            "For example: x = int(input(\"What's x?\"))",
+            "Casting is the process of temporarily changing the data type of a variable."
+          ]
+        },
+        {
+          "title": "Functions and Error Handling",
+          "bullets": [
+            "Functions are verbs or actions that the computer or computer language will already know how to perform.",
+            "Functions can take arguments, which are values passed to the function.",
+            "Bugs are mistakes or problems in the code.",
+            "Error messages can often inform you of your mistakes and provide clues on how to fix them."
+          ]
+        }
+      ]
+    },
+    "source_chunk_ids": [
+      "24bd5435-3662-4d8c-bb33-35f68e65b43d",
+      "8dff947f-dc06-47c8-80c2-8dc7891bd409",
+      "07f341c6-640b-465a-9cae-4c343db1dc78",
+      "f672381b-1f16-482d-83a9-1c6c398cc466",
+      "69515b8f-9136-4a87-aabe-d39339cb5adc"
+    ],
+    "validation": {
+      "schema_valid": true,
+      "schema_message": "OK",
+      "nli_coverage_ratio": 0.4286,
+      "nli_grounding_ok": false,
+      "claim_details": [
+        {
+          "claim": "In Python, an integer is referred to as an int.",
+          "best_entailment_score": 4.2325,
+          "grounded": true
+        },
+        {
+          "claim": "Integers can be used for mathematical operations such as +, -, *, /, and %.",
+          "best_entailment_score": 2.2909,
+          "grounded": true
+        },
+        {
+          "claim": "The % operator is the modulo operator, which returns the remainder of a division operation.",
+          "best_entailment_score": -0.3736,
+          "grounded": false
+        },
+        {
+          "claim": "Variables can be declared using the assignment operator (=).",
+          "best_entailment_score": -0.0409,
+          "grounded": false
+        },
+        {
+          "claim": "For example: x = 1, y = 2, z = x + y.",
+          "best_entailment_score": -1.1161,
+          "grounded": false
+        },
+        {
+          "claim": "The input function can be used to get user input from the keyboard.",
+          "best_entailment_score": -1.2002,
+          "grounded": false
+        },
+        {
+          "claim": "User input is treated as a string by default.",
+          "best_entailment_score": -1.4174,
+          "grounded": false
+        },
+        {
+          "claim": "To convert a string to an integer, you can use the int() function.",
+          "best_entailment_score": 0.4211,
+          "grounded": true
+        },
+        {
+          "claim": "For example: x = int(input(\"What's x?\"))",
+          "best_entailment_score": 0.14,
+          "grounded": false
+        },
+        {
+          "claim": "Casting is the process of temporarily changing the data type of a variable.",
+          "best_entailment_score": -1.1225,
+          "grounded": false
+        },
+        {
+          "claim": "Functions are verbs or actions that the computer or computer language will already know how to perform.",
+          "best_entailment_score": 3.0874,
+          "grounded": true
+        },
+        {
+          "claim": "Functions can take arguments, which are values passed to the function.",
+          "best_entailment_score": 3.7896,
+          "grounded": true
+        },
+        {
+          "claim": "Bugs are mistakes or problems in the code.",
+          "best_entailment_score": 1.9415,
+          "grounded": true
+        },
+        {
+          "claim": "Error messages can often inform you of your mistakes and provide clues on how to fix them.",
+          "best_entailment_score": -1.16,
+          "grounded": false
+        }
+      ],
+      "passed": false
+    },
+    "status": "FLAGGED"
+  },
+  "quiz": {
+    "artifact": {
+      "artifact_type": "quiz",
+      "topic": "Python Fundamentals",
+      "subtopic": "Functions and Variables",
+      "questions": [
+        {
+          "question": "What is the result of the expression 1+1 in Python?",
+          "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+          ],
+          "answer": "2",
+          "bloom_level": "Remember"
+        },
+        {
+          "question": "What type of variable is created when you use the input function in Python?",
+          "options": [
+            "int",
+            "float",
+            "string",
+            "bool"
+          ],
+          "answer": "string",
+          "bloom_level": "Understand"
+        },
+        {
+          "question": "How can you convert a string input from the user to an integer in Python?",
+          "options": [
+            "using the int function",
+            "using the float function",
+            "using the str function",
+            "using the bool function"
+          ],
+          "answer": "using the int function",
+          "bloom_level": "Apply"
+        },
+        {
+          "question": "Why does the expression x + y produce incorrect results when x and y are input by the user in Python?",
+          "options": [
+            "because the + sign is used for concatenation",
+            "because the input function returns an integer",
+            "because the int function is not used",
+            "because the print function is not used"
+          ],
+          "answer": "because the + sign is used for concatenation",
+          "bloom_level": "Analyze"
+        },
+        {
+          "question": "What is the term for the process of temporarily changing a value from one type of variable to another in Python?",
+          "options": [
+            "casting",
+            "converting",
+            "conjugating",
+            "converting"
+          ],
+          "answer": "casting",
+          "bloom_level": "Analyze"
+        }
+      ]
+    },
+    "source_chunk_ids": [
+      "24bd5435-3662-4d8c-bb33-35f68e65b43d",
+      "8dff947f-dc06-47c8-80c2-8dc7891bd409",
+      "07f341c6-640b-465a-9cae-4c343db1dc78",
+      "f672381b-1f16-482d-83a9-1c6c398cc466",
+      "69515b8f-9136-4a87-aabe-d39339cb5adc"
+    ],
+    "validation": {
+      "schema_valid": true,
+      "schema_message": "OK",
+      "nli_coverage_ratio": 0.0,
+      "nli_grounding_ok": false,
+      "claim_details": [
+        {
+          "claim": "What is the result of the expression 1+1 in Python?",
+          "best_entailment_score": -0.2953,
+          "grounded": false
+        },
+        {
+          "claim": "What type of variable is created when you use the input function in Python?",
+          "best_entailment_score": -0.0573,
+          "grounded": false
+        },
+        {
+          "claim": "How can you convert a string input from the user to an integer in Python?",
+          "best_entailment_score": -0.6325,
+          "grounded": false
+        },
+        {
+          "claim": "Why does the expression x + y produce incorrect results when x and y are input by the user in Python?",
+          "best_entailment_score": -1.4817,
+          "grounded": false
+        },
+        {
+          "claim": "What is the term for the process of temporarily changing a value from one type of variable to another in Python?",
+          "best_entailment_score": 0.2912,
+          "grounded": false
+        }
+      ],
+      "passed": false
+    },
+    "status": "FLAGGED"
+  },
+  "takeaways": {
+    "artifact": {
+      "artifact_type": "takeaways",
+      "topic": "Python Fundamentals",
+      "subtopic": "Functions and Variables",
+      "takeaways": [
+        "Functions are verbs or actions that the computer or computer language will already know how to perform.",
+        "Variables in Python can be declared using the assignment operator =",
+        "The + sign in Python concatenates two strings but can also be used for integer addition after type conversion.",
+        "Error messages can often inform you of your mistakes and provide clues on how to fix them."
+      ]
+    },
+    "source_chunk_ids": [
+      "24bd5435-3662-4d8c-bb33-35f68e65b43d",
+      "8dff947f-dc06-47c8-80c2-8dc7891bd409",
+      "07f341c6-640b-465a-9cae-4c343db1dc78",
+      "f672381b-1f16-482d-83a9-1c6c398cc466",
+      "69515b8f-9136-4a87-aabe-d39339cb5adc"
+    ],
+    "validation": {
+      "schema_valid": true,
+      "schema_message": "OK",
+      "nli_coverage_ratio": 0.75,
+      "nli_grounding_ok": true,
+      "claim_details": [
+        {
+          "claim": "Functions are verbs or actions that the computer or computer language will already know how to perform.",
+          "best_entailment_score": 3.0874,
+          "grounded": true
+        },
+        {
+          "claim": "Variables in Python can be declared using the assignment operator =",
+          "best_entailment_score": 1.4565,
+          "grounded": true
+        },
+        {
+          "claim": "The + sign in Python concatenates two strings but can also be used for integer addition after type conversion.",
+          "best_entailment_score": 1.2631,
+          "grounded": true
+        },
+        {
+          "claim": "Error messages can often inform you of your mistakes and provide clues on how to fix them.",
+          "best_entailment_score": -1.16,
+          "grounded": false
+        }
+      ],
+      "passed": true
+    },
+    "status": "READY FOR REVIEW"
+  }
+}
